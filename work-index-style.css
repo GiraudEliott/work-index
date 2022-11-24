@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Heming;
+    font-weight: 1;
+    src: url(./Ressource/Heming\ Variable.ttf);
+}
+
+body {
+    font-family: Heming;
+    background: rgb(238, 238, 238);
+    color: black;
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+    /* margin: 0,3em; */
+    /* padding: 0; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vw;
+    /* background-color: blue; */
+    margin-top: 10vh;
+    margin-bottom: 0;
+    z-index: 1;
+    top: 0%;
+    left: auto;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: center;
+    font-size: 3.5vh;
+    margin-bottom: 10vh;
+
+}
+
+p{
+    margin: 3vh;
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+ul {
+    /* background-color: red; */
+    margin: 10vw;
+    margin-top: 4vw;
+    list-style: none;
+    text-align: justify;
+}
+
+a {
+    position: relative;
+    color: black;
+    text-align: start;
+    font-size: 2vw;
+    /* margin: 2vw; */
+    text-decoration: none;
+    transition-duration: 0, 2s;
+    /* background-color: green; */
+
+}
+
+li a:hover {
+    /* color: rgb(0, 255, 0); */
+    /* padding-left: 10px; */
+    transition-duration: 0.2s;
+    font-size: 2.5vw;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+
+    body {
+        margin: 0%;
+    }
+
+    a {
+        font-size: 10vw;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+} */
