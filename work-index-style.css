@@ -4,9 +4,17 @@
     src: url(./Ressource/Heming\ Variable.ttf);
 }
 
+html { 
+    background: url(./Ressource/backgorundtest.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 body {
     font-family: Heming;
-    background: rgb(238, 238, 238);
+    /* background: rgb(238, 238, 238); */
     color: black;
     -ms-overflow-style: none;
     /* for Internet Explorer, Edge */
@@ -83,17 +91,30 @@ li a:hover {
 }
 
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
     body {
         margin: 0%;
     }
 
     a {
-        font-size: 10vw;
+        font-size: 4vw;
+
+    }
+
+    ul{
+        margin: 0;
+        padding: 10px;
+    }
+
+    hr{
+        align-items: center;
+        left: 0;
+        padding: 10px;
     }
 
     h1 {
-        font-size: 70px;
+        font-size: 40px;
+        text-align: center;
     }
-} */
+}

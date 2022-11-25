@@ -33,9 +33,9 @@
         <hr>
         <li><a href="https://www.instagram.com/____occult/" target="_blank">OCCULT - <span style="color: rgb(133, 133, 133);">Clothing</span> - 2016</a></li>
         <hr>
-        <li><a style="text-align: right" href="#">TEST</a></li>
+        <li><a href="#">TEST</a></li>
         <hr>
-        <li><a href="#">COMING SOON</a></li>
+        <li><a href="./exemple-page.html">PAGE EXEMPLE ARTICLE - <span style="color: rgb(133, 133, 133);">Exemple</span> - 2022</a></li>
         <hr>
         <li><a href="#">COMING SOON</a></li>
         <hr>
@@ -111,30 +111,6 @@
         <hr>
 
     </ul>
-
-    <script>
-        var toggle = document.getElementById("theme-toggle");
-
-        var storedTheme =
-            localStorage.getItem("theme") ||
-            (window.matchMedia("(prefers-color-scheme: light)").matches
-                ? "dark"
-                : "light");
-        if (storedTheme)
-            document.documentElement.setAttribute("data-theme", storedTheme);
-
-        toggle.onclick = function () {
-            var currentTheme = document.documentElement.getAttribute("data-theme");
-            var targetTheme = "light";
-
-            if (currentTheme === "light") {
-                targetTheme = "dark";
-            }
-
-            document.documentElement.setAttribute("data-theme", targetTheme);
-            localStorage.setItem("theme", targetTheme);
-        };
-    </script>
 
 </body>
 
