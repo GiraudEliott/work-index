@@ -41,7 +41,6 @@ hr {
     font-size: 3vh;
     top: 30px;
     left: 30px;
-
 }
 
 h1 {
@@ -89,11 +88,18 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80vh;
-    margin-bottom: 30px;
+    width: 50vh;
+    margin: 5px;
 }
 
+.box{
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    flex-wrap: wrap;
+    justify-content: center;
 
+  }
 
 
 @media only screen and (max-width: 600px) {
@@ -110,6 +116,7 @@ img {
     p{
         text-align: start;
         font-size: 15px;
+        width: 20em;
     }
     
     img{
@@ -119,4 +126,8 @@ img {
         width: 20em;
         margin-bottom: 30px;
     }
+
+    .box{
+        flex-direction: column;
+      }
 }

@@ -4,13 +4,13 @@
     src: url(./Ressource/Heming\ Variable.ttf);
 }
 
-html { 
-    background: url(./Ressource/backgorundtest.png) no-repeat center center fixed; 
+html {
+    background: url(./Ressource/backgorundtest.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
 body {
     font-family: Heming;
@@ -49,14 +49,14 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
-h2{
+h2 {
     text-align: center;
     font-size: 3.5vh;
     margin-bottom: 10vh;
 
 }
 
-p{
+p {
     margin: 3vh;
     font-size: 2vw;
     text-align: center;
@@ -75,7 +75,7 @@ a {
     position: relative;
     color: black;
     text-align: start;
-    font-size: 2vw;
+    font-size: 1.3vw;
     /* margin: 2vw; */
     text-decoration: none;
     transition-duration: 0, 2s;
@@ -86,8 +86,8 @@ a {
 li a:hover {
     /* color: rgb(0, 255, 0); */
     /* padding-left: 10px; */
-    transition-duration: 0.2s;
-    font-size: 2.5vw;
+    transition-duration: 0.3s;
+    font-size: 2vw;
 }
 
 
@@ -102,19 +102,23 @@ li a:hover {
 
     }
 
-    ul{
+    ul {
         margin: 0;
         padding: 10px;
     }
 
-    hr{
+    hr {
         align-items: center;
         left: 0;
-        padding: 10px;
+        padding: 3px;
     }
 
     h1 {
         font-size: 40px;
         text-align: center;
+    }
+
+    li{
+        font: 10vw;
     }
 }
